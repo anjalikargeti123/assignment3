@@ -1,0 +1,10 @@
+file1 = open ('sample.txt','r')
+reading_file=file1 . readlines()
+for i in reading_file :
+    print (i)
+try:
+    open("sample.text","r")
+except:
+    print ("this is an error")
+finally:
+    print("this file do not exist ")
